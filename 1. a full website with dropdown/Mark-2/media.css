@@ -1,0 +1,265 @@
+@media (max-width: 645px) {
+    html {
+        font-size: 80.2%;
+    }
+
+    .sec1-bg {
+        background-size: 350%, 100%;
+        background-position: 35% 45%, center;
+    }
+
+    /* logo+toggle menu */
+
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 15% auto 0;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .toggle img {
+        display: block;
+        width: 50px;
+    }
+
+    /* burger menu  */
+
+    #burger {
+        display: block;
+        width: 40px;
+    }
+
+    /* cross menu  */
+
+    #cross {
+        display: none;
+        width: 32px;
+    }
+
+    /* if you click the burger will close  */
+
+    #toggle:checked~.logo #burger {
+        display: none;
+    }
+
+    /* if checked the cross will enable  */
+
+    #toggle:checked~.logo #cross {
+        display: block;
+    }
+
+    #toggle:checked~.menu-box {
+        display: block;
+    }
+
+    /* navigation menu + buttons */
+
+    .menu-box {
+        background-color: white;
+        box-shadow: -5px 6px 25px black;
+        border-radius: 22px;
+        padding: 5%;
+        width: 85%;
+        height: 90%;
+
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+
+        flex-direction: column;
+        display: none;
+    }
+
+    .navigation {
+        padding: 5%;
+        flex-direction: column;
+        width: 100%;
+        height: 70%;
+    }
+
+    .menu-item {
+        width: 100%;
+        align-items: center;
+    }
+
+    .menu-bar {
+        margin-bottom: 25px;
+        color: black;
+    }
+
+    #img1 {
+        display: none;
+    }
+
+    #img2 {
+        display: block;
+    }
+
+    .dropdown {
+        position: static;
+        text-align: center;
+        background-color: rgb(232, 226, 226);
+
+        color: black;
+        width: 100%;
+        padding: 10%;
+
+        border-radius: 22px;
+    }
+
+    /* navigation buttons  */
+
+    .nav-btn {
+        flex-direction: column;
+    }
+
+    .nav-btn :nth-child(1) {
+        color: black;
+    }
+
+    .nav-btn :nth-child(2) {
+        align-self: center;
+        width: 60%;
+        color: white;
+        background: linear-gradient(to right,
+                hsl(13, 100%, 72%),
+                hsl(353, 100%, 62%));
+    }
+
+    /* hero section  */
+
+    .hero-section {
+        margin: 20% auto 0%;
+    }
+
+    .hero-section h1 {
+        font-size: 3rem;
+    }
+
+    .hero-btn {
+        width: 100%;
+    }
+
+    .hero-btn button {
+        font-size: 0.8rem;
+    }
+
+    /* Section 2  */
+    .all-feature {
+        gap: 5%;
+    }
+
+    .all-feature h1 {
+        font-size: 2rem;
+    }
+
+    .feature-box {
+        width: 100%;
+    }
+
+    .cont1 {
+        text-align: center;
+    }
+
+    .cont2 {
+        text-align: center;
+    }
+
+    .cont1 p,
+    .cont2 p {
+        font-size: 1.3rem;
+    }
+
+    .feature-img {
+        position: static;
+        width: 100%;
+    }
+
+    /* section 3 */
+
+    .section3 {
+        height: 100%;
+    }
+
+    .sec3-box {
+        height: 80%;
+        background-size: 120%, contain;
+        background-position: 60% -700%, center;
+    }
+
+    .sec3-subox {
+        width: 80%;
+    }
+
+    .sec3-subox img {
+        top: -60%;
+    }
+
+    .content-sec3 {
+        width: 100%;
+        text-align: center;
+        margin-top: 40%;
+    }
+
+    .content-sec3 h1 {
+        font-size: 4rem;
+    }
+
+    /* section 4  */
+
+    .section4 {
+        height: 40vh;
+    }
+
+    .sec4-main {
+        flex-direction: column;
+    }
+
+    .sec4-main img {
+        position: static;
+        margin-bottom: 30%;
+    }
+
+    .sec3-boxleft {
+        width: 100%;
+    }
+
+    /* footer  */
+
+    .section5 {
+        height: auto;
+    }
+
+    .footer-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-img {
+        margin-bottom: 25px;
+    }
+
+    .footer-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .footer-li1 h1 {
+        font-size: 2rem;
+    }
+
+    .footer-li1 li {
+        font-size: 1.4rem;
+    }
+
+    .footer-pli {
+        text-align: center;
+    }
+}
